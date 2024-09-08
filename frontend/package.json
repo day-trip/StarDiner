@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "packageManager": "^bun@1.1.27",
+  "private": true,
+  "scripts": {
+    "dev": "FORCE_COLOR=1 next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dynamoose": "^4.0.1",
+    "next": "latest",
+    "openai": "^4.58.1",
+    "react": "latest",
+    "react-div-100vh": "^0.7.0",
+    "react-dom": "latest",
+    "react-textarea-autosize": "latest"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "latest",
+    "@eslint/js": "latest",
+    "@types/eslint__eslintrc": "latest",
+    "@types/next": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-textarea-autosize": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "turbo": "latest",
+    "typescript": "latest"
+  }
+}
